@@ -1,0 +1,75 @@
+{
+  "intercept": 5.307842473366129,
+  "feature_names": [
+    "DEP_DELAY",
+    "PREV_AIRCRAFT_DELAY",
+    "TAXI_OUT",
+    "WEATHER_SEVERITY_IDX",
+    "WIND_SPEED_KTS",
+    "VISIBILITY_MILES",
+    "PRECIP_MM",
+    "DEP_HOUR",
+    "DISTANCE",
+    "CRS_ELAPSED_TIME",
+    "MONTH",
+    "DAY_OF_WEEK",
+    "OP_CARRIER_IDX",
+    "ORIGIN_HUB_IDX"
+  ],
+  "lr_coefficients": {
+    "DEP_DELAY": 1.01694,
+    "PREV_AIRCRAFT_DELAY": -0.00958,
+    "TAXI_OUT": 0.65466,
+    "WEATHER_SEVERITY_IDX": 0.82746,
+    "WIND_SPEED_KTS": -0.04086,
+    "VISIBILITY_MILES": 0.2593,
+    "PRECIP_MM": 0.05611,
+    "DEP_HOUR": -0.0033,
+    "DISTANCE": -0.00276,
+    "CRS_ELAPSED_TIME": -0.03148,
+    "MONTH": 0.04226,
+    "DAY_OF_WEEK": 0.0,
+    "OP_CARRIER_IDX": 0.02511,
+    "ORIGIN_HUB_IDX": -4.24484
+  },
+  "rf_feature_importances": {
+    "CRS_ELAPSED_TIME": 38.43,
+    "DISTANCE": 24.75,
+    "DEP_DELAY": 17.59,
+    "VISIBILITY_MILES": 7.2,
+    "WEATHER_SEVERITY": 4.93,
+    "PRECIP_MM": 1.74,
+    "PREV_AIRCRAFT_DELAY": 1.71,
+    "TAXI_OUT": 1.57,
+    "WIND_SPEED_KTS": 1.06,
+    "ORIGIN_HUB": 0.45,
+    "OP_CARRIER": 0.39,
+    "DEP_HOUR": 0.1,
+    "MONTH": 0.05,
+    "DAY_OF_WEEK": 0.03
+  },
+  "metrics": [
+    {
+      "model_id": "spark_rf_regressor",
+      "model_name": "Random Forest Regressor (Spark MLlib)",
+      "target_variable": "ARR_DELAY (хв)",
+      "train_rows": 64375,
+      "test_rows": 15813,
+      "rmse": 11.007,
+      "mae": 7.322,
+      "r2_score": 0.9399,
+      "training_time_sec": 7.141
+    },
+    {
+      "model_id": "spark_lr_baseline",
+      "model_name": "Linear Regression ElasticNet (Baseline)",
+      "target_variable": "ARR_DELAY (хв)",
+      "train_rows": 64375,
+      "test_rows": 15813,
+      "rmse": 30.332,
+      "mae": 20.589,
+      "r2_score": 0.5432,
+      "training_time_sec": 3.212
+    }
+  ]
+}

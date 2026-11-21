@@ -1,0 +1,46 @@
+# Конфігурація програмно-аналітичного комплексу "ПАКАПА" (Варіант 3)
+system:
+  project_name: "ПАКАПА — Аналіз пунктуальності авіарейсів і чинників затримок"
+  variant: 3
+  version: "1.0.0"
+
+spark:
+  app_name: "PAKAPA-Flight-Punctuality-BigData"
+  master: "local[2]"
+  driver_memory: "1g"
+  shuffle_partitions: 4
+  parquet_compression: "snappy"
+
+data_quality:
+  # Стандарт FAA / US DOT BTS: затримкою вважається відхилення >= 15 хвилин
+  otp_threshold_minutes: 15.0
+  severe_delay_minutes: 60.0
+  extreme_outlier_delay_minutes: 1440.0  # > 24 годин — аномалія/помилка реєстрації
+  min_air_time_minutes: 10.0
+  min_distance_miles: 20.0
+  max_distance_miles: 10500.0
+  max_taxi_out_minutes: 240.0
+  quarantine_on_null_keys: true
+  deduplicate_by:
+    - "FL_DATE"
+    - "OP_CARRIER"
+    - "FL_NUM"
+    - "ORIGIN"
+    - "DEST"
+    - "CRS_DEP_TIME"
+
+ml:
+  target_column: "ARR_DELAY"
+  train_ratio: 0.8
+  random_seed: 42
+  rf_num_trees: 45
+  rf_max_depth: 8
+  lr_reg_param: 0.05
+  lr_elastic_net_param: 0.2
+
+streaming:
+  kafka_topic_live: "flights.live.stream"
+  kafka_topic_dlq: "flights.dlq"
+  opensky_api_url: "https://opensky-network.org/api/states/all"
+  poll_interval_seconds: 10
+  batch_size: 40

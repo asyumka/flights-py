@@ -1,0 +1,25 @@
+IATA_CODE,AIRLINE_NAME,ALLIANCE,FLEET_TYPE,BASE_OTP_RATING
+LH,Lufthansa (Deutsche Lufthansa AG),Star Alliance,Mainline Narrow/Wide,82.6
+FR,Ryanair DAC,European Low-Cost,Boeing 737-800/MAX,84.1
+BA,British Airways Plc,Oneworld,Mainline Narrow/Wide,79.8
+AF,Air France,SkyTeam,Mainline Narrow/Wide,80.4
+KL,KLM Royal Dutch Airlines,SkyTeam,Mainline Narrow/Wide,83.2
+TK,Turkish Airlines (THY),Star Alliance,Global Mega-Carrier,81.9
+W6,Wizz Air Hungary Ltd.,European Ultra Low-Cost,Airbus A320/A321neo,77.5
+LO,LOT Polish Airlines,Star Alliance,Embraer / B737 / B787,83.7
+LX,SWISS International Air Lines,Star Alliance,Airbus / Boeing Wide,84.8
+IB,Iberia Lineas Aereas de Espana,Oneworld,Airbus A320/A350,85.9
+DL,Delta Air Lines Inc.,SkyTeam,Mainline Narrow/Wide,84.2
+UA,United Air Lines Inc.,Star Alliance,Mainline Narrow/Wide,80.5
+AA,American Airlines Inc.,Oneworld,Mainline Narrow/Wide,78.9
+WN,Southwest Airlines Co.,Low-Cost Point-to-Point,Boeing 737 Fleet,79.4
+AC,Air Canada,Star Alliance,Mainline Narrow/Wide,76.8
+B6,JetBlue Airways,Independent / Hybrid,Airbus A320/A220,74.2
+EK,Emirates Airline,Independent Global,Airbus A380 / Boeing 777,85.4
+QR,Qatar Airways,Oneworld,Airbus A350 / Boeing 777/787,86.1
+SQ,Singapore Airlines,Star Alliance,Widebody Long-Haul,87.3
+NH,All Nippon Airways (ANA),Star Alliance,Mainline Narrow/Wide,88.5
+JL,Japan Airlines (JAL),Oneworld,Mainline Narrow/Wide,88.1
+CX,Cathay Pacific Airways,Oneworld,Widebody Long-Haul,82.0
+LA,LATAM Airlines Group,Independent Global,Airbus A320 / Boeing 787,83.9
+QF,Qantas Airways Ltd.,Oneworld,Mainline Narrow/Wide,81.2

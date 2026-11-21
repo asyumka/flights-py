@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+data/raw/flights_bts_raw.csv
+data/lake/bronze/
+data/lake/silver/
+data/lake/quarantine/
+models/spark_*
+backups/*.zip
+backups/*.parquet
+.env

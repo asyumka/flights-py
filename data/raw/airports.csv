@@ -1,0 +1,48 @@
+IATA_CODE,AIRPORT_NAME,CITY,STATE,LATITUDE,LONGITUDE,HUB_TIER,CLIMATE_ZONE,AVG_TAXI_OUT_BASE
+LHR,London Heathrow International,London,Europe (UK),51.47,-0.4543,Mega-Hub,Marine West Coast,24.5
+CDG,Paris Charles de Gaulle Airport,Paris,Europe (FR),49.0097,2.5479,Mega-Hub,Temperate Oceanic,22.8
+FRA,Frankfurt am Main International,Frankfurt,Europe (DE),50.0379,8.5622,Mega-Hub,Central European,21.9
+AMS,Amsterdam Airport Schiphol,Amsterdam,Europe (NL),52.3105,4.7683,Mega-Hub,Marine Fog-Prone,23.4
+IST,Istanbul International Airport,Istanbul,Europe (TR),41.2753,28.7519,Mega-Hub,Mediterranean,21.2
+MAD,Adolfo Suarez Madrid-Barajas,Madrid,Europe (ES),40.4983,-3.5676,Major-Hub,Mediterranean Continental,18.6
+MUC,Munich Franz Josef Strauss Intl,Munich,Europe (DE),48.3537,11.775,Major-Hub,Alpine Continental,17.8
+FCO,Rome Leonardo da Vinci-Fiumicino,Rome,Europe (IT),41.8003,12.2389,Major-Hub,Mediterranean Coastal,18.9
+BCN,Josep Tarradellas Barcelona-El Prat,Barcelona,Europe (ES),41.2974,2.0833,Major-Hub,Mediterranean Coastal,17.4
+ZRH,Zurich Kloten Airport,Zurich,Europe (CH),47.4582,8.5555,Major-Hub,Alpine Snowy,17.2
+VIE,Vienna International Airport,Vienna,Europe (AT),48.1103,16.5697,Major-Hub,Central European,15.8
+WAW,Warsaw Chopin Airport,Warsaw,Europe (PL),52.1672,20.9679,Major-Hub,Continental Snowy,16.1
+DUB,Dublin International Airport,Dublin,Europe (IE),53.4264,-6.2499,Major-Hub,Marine West Coast,18.5
+CPH,Copenhagen Kastrup Airport,Copenhagen,Europe (DK),55.618,12.6508,Medium-Hub,Nordic Maritime,15.2
+OSL,Oslo Gardermoen Airport,Oslo,Europe (NO),60.1976,11.1004,Medium-Hub,Continental Snowy,16.4
+ARN,Stockholm Arlanda Airport,Stockholm,Europe (SE),59.6498,17.9238,Medium-Hub,Continental Snowy,15.9
+LIS,Humberto Delgado Airport,Lisbon,Europe (PT),38.7756,-9.1354,Major-Hub,Atlantic Coastal,18.1
+ATH,Athens Eleftherios Venizelos Intl,Athens,Europe (GR),37.9364,23.9445,Medium-Hub,Mediterranean,15.6
+PRG,Vaclav Havel Airport Prague,Prague,Europe (CZ),50.1008,14.26,Medium-Hub,Central European,14.7
+BUD,Budapest Ferenc Liszt International,Budapest,Europe (HU),47.4369,19.2556,Medium-Hub,Central European,14.9
+DXB,Dubai International Airport,Dubai,Middle East (AE),25.2532,55.3657,Mega-Hub,Arid Desert,23.1
+DOH,Hamad International Airport,Doha,Middle East (QA),25.2731,51.6081,Mega-Hub,Arid Desert,19.4
+HND,Tokyo Haneda International,Tokyo,Asia-Pacific (JP),35.5494,139.7798,Mega-Hub,Humid Subtropical,19.2
+SIN,Singapore Changi Airport,Singapore,Asia-Pacific (SG),1.3644,103.9915,Mega-Hub,Tropical Monsoon,18.5
+ICN,Incheon International Airport,Seoul,Asia-Pacific (KR),37.4602,126.4407,Mega-Hub,Continental Monsoon,19.0
+HKG,Hong Kong International Airport,Hong Kong,Asia-Pacific (HK),22.308,113.9185,Mega-Hub,Tropical Convective,20.3
+BKK,Suvarnabhumi International,Bangkok,Asia-Pacific (TH),13.69,100.7501,Major-Hub,Tropical Monsoon,18.2
+DEL,Indira Gandhi International,New Delhi,Asia-Pacific (IN),28.5562,77.1,Mega-Hub,Subtropical Fog-Prone,21.6
+SYD,Sydney Kingsford Smith Intl,Sydney,Oceania (AU),-33.9399,151.1753,Major-Hub,Oceanic Subtropical,17.7
+MEL,Melbourne Tullamarine Airport,Melbourne,Oceania (AU),-37.669,144.841,Major-Hub,Temperate Oceanic,16.5
+ATL,Hartsfield-Jackson Atlanta Intl,Atlanta,North America (US),33.6407,-84.4277,Mega-Hub,Humid Subtropical,19.5
+DFW,Dallas/Fort Worth International,Dallas,North America (US),32.8998,-97.0403,Mega-Hub,Subtropical Steppe,18.2
+DEN,Denver International Airport,Denver,North America (US),39.8561,-104.6737,Mega-Hub,Alpine Semi-Arid,17.8
+ORD,Chicago O'Hare International,Chicago,North America (US),41.9742,-87.9073,Mega-Hub,Continental Snowy,22.4
+LAX,Los Angeles International,Los Angeles,North America (US),33.9416,-118.4085,Mega-Hub,Mediterranean Coastal,18.9
+JFK,John F. Kennedy International,New York,North America (US),40.6413,-73.7781,Mega-Hub,Northeast Coastal,26.8
+MIA,Miami International Airport,Miami,North America (US),25.7959,-80.287,Major-Hub,Tropical Monsoon,19.3
+SFO,San Francisco International,San Francisco,North America (US),37.6213,-122.379,Major-Hub,Marine Fog-Prone,20.8
+SEA,Seattle-Tacoma International,Seattle,North America (US),47.4502,-122.3088,Major-Hub,Marine West Coast,18.4
+YYZ,Toronto Pearson International,Toronto,North America (CA),43.6777,-79.6248,Mega-Hub,Continental Snowy,21.1
+YVR,Vancouver International Airport,Vancouver,North America (CA),49.1967,-123.1815,Major-Hub,Marine West Coast,17.6
+MEX,Mexico City Benito Juarez Intl,Mexico City,Latin America (MX),19.4361,-99.0719,Mega-Hub,Highland Subtropical,22.0
+GRU,Sao Paulo-Guarulhos International,Sao Paulo,Latin America (BR),-23.4356,-46.4731,Mega-Hub,Humid Subtropical,20.4
+BOG,El Dorado International Airport,Bogota,Latin America (CO),4.7016,-74.1469,Major-Hub,Andean Highland,19.8
+EZE,Ministro Pistarini International,Buenos Aires,Latin America (AR),-34.8222,-58.5358,Major-Hub,Humid Pampas,16.9
+JNB,O.R. Tambo International Airport,Johannesburg,Africa (ZA),-26.1367,28.2411,Major-Hub,Highveld Subtropical,17.3
+CAI,Cairo International Airport,Cairo,Africa (EG),30.1219,31.4056,Major-Hub,Arid Desert,18.0

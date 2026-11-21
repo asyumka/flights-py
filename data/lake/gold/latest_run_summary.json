@@ -1,0 +1,84 @@
+{
+  "batch_id": "20261112_205327",
+  "total_duration_sec": 58.51,
+  "bronze_rows": 200700,
+  "silver_valid_rows": 196500,
+  "quarantine_rejected_rows": 4200,
+  "quarantine_rate_pct": 2.09,
+  "ml_metrics": [
+    {
+      "model_id": "spark_rf_regressor",
+      "model_name": "Random Forest Regressor (Spark MLlib)",
+      "target_variable": "ARR_DELAY (хв)",
+      "train_rows": 64375,
+      "test_rows": 15813,
+      "rmse": 11.007,
+      "mae": 7.322,
+      "r2_score": 0.9399,
+      "training_time_sec": 7.141
+    },
+    {
+      "model_id": "spark_lr_baseline",
+      "model_name": "Linear Regression ElasticNet (Baseline)",
+      "target_variable": "ARR_DELAY (хв)",
+      "train_rows": 64375,
+      "test_rows": 15813,
+      "rmse": 30.332,
+      "mae": 20.589,
+      "r2_score": 0.5432,
+      "training_time_sec": 3.212
+    }
+  ],
+  "top_features": [
+    {
+      "feature_code": "CRS_ELAPSED_TIME",
+      "feature_name_ua": "Планова тривалість рейсу за розкладом (хв)",
+      "importance_weight": 0.38434,
+      "importance_pct": 38.43,
+      "category": "Часовий розклад"
+    },
+    {
+      "feature_code": "DISTANCE",
+      "feature_name_ua": "Ортодромічна довжина маршруту (миль)",
+      "importance_weight": 0.24747,
+      "importance_pct": 24.75,
+      "category": "Геометрія маршруту"
+    },
+    {
+      "feature_code": "DEP_DELAY",
+      "feature_name_ua": "Відхилення часу вильоту від розкладу (DEP_DELAY, хв)",
+      "importance_weight": 0.17594,
+      "importance_pct": 17.59,
+      "category": "Операційні таймінги"
+    },
+    {
+      "feature_code": "VISIBILITY_MILES",
+      "feature_name_ua": "Горизонтальна видимість на злітній смузі (миль)",
+      "importance_weight": 0.07201,
+      "importance_pct": 7.2,
+      "category": "Метеорологічний фактор"
+    },
+    {
+      "feature_code": "WEATHER_SEVERITY",
+      "feature_name_ua": "Індекс суворості метеоумов у вузлі вильоту (0..10)",
+      "importance_weight": 0.04925,
+      "importance_pct": 4.93,
+      "category": "Метеорологічний фактор"
+    }
+  ],
+  "streaming": {
+    "received": 65,
+    "valid_processed": 65,
+    "dlq_rejected": 0,
+    "dlq_samples": [],
+    "source_mode": "opensky_live",
+    "kafka_broker_used": true
+  },
+  "backup": {
+    "backup_file": "pakapa_gold_backup_post_etl_20261112_205425.zip",
+    "path": "D:\\ed\\course\\flights\\backups\\pakapa_gold_backup_post_etl_20261112_205425.zip",
+    "files_count": 24,
+    "size_kb": 102.81,
+    "created_at": "20261112_205425"
+  }
+}
